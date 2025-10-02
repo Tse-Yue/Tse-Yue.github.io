@@ -55,7 +55,7 @@ export const navBarConfig: NavBarConfig = {
 export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/demo-avatar.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 	name: "Kerwen",
-	bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+	bio: "一个爱捣鼓电脑的OIer，请多多指教呀喵~！",
 	links: [
 		{
 			name: "GitHub",
@@ -63,9 +63,9 @@ export const profileConfig: ProfileConfig = {
 			url: "https://github.com/saicaca/fuwari",
 		},
 		{
-			name: "GitHub",
-			icon: "fa6-brands:github",
-			url: "https://github.com/saicaca/fuwari",
+			name: "BiliBili",
+			icon: "fa6-brands:bilibili",
+			url: "https://space.bilibili.com/3493076901300236",
 		},
 	],
 };
