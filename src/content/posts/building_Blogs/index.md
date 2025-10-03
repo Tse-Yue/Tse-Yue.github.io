@@ -23,6 +23,7 @@ Fuwari 由 [saicaca](https://github.com/saicaca) 大佬（曾出品 Vivia）基�
 Vivia 的部署步骤确实少一两步，但 Fuwari 把后期操作全部可视化，长远看更省心。
 
 一句话：想一步到位、写得爽又看得爽，直接跳 Fuwari 坑就对了！
+
 ### 🧰 一、准备工作（每一步都写清楚）
 
 #### 1. 安装 Git（如果你没装）
