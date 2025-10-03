@@ -7,7 +7,7 @@ tags:
   - Astro
   - Blog
 category: 折腾电脑记
-draft: true
+draft: false
 ---
 
 ### 关于 Fuwari
@@ -44,7 +44,7 @@ draft: true
 
 2. 然后将仓库克隆到本地：
 
-``` bat
+```bat
 git clone <你的仓库URL>.git
 ```
 
@@ -79,7 +79,7 @@ git clone <你的仓库URL>.git
 - `lang`：语言
 - `themeColor`：主题色（这边建议等会预览后在调整，毕竟现在连哪个色对那个编号还不知道呢）
 - `banner`：背景
-	- 这里的 `src`，是相对于文件夹 `src` 的路径
+  - 这里的 `src`，是相对于文件夹 `src` 的路径
 
 。。。其他设置不在这里仔细的展开，可以让 AI or 微软翻译 翻译注释
 
