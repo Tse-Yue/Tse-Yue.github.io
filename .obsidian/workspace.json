@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/posts/building_Blogs/index.md",
+                "file": "src/content/posts/draft.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "draft"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "87c000aaf489b56d",
@@ -171,8 +170,14 @@
   },
   "active": "339ce0d8c806bbd8",
   "lastOpenFiles": [
-    "src/content/posts/guide/index.md",
+    "src/content/posts/expressive-code.md",
+    "src/content/posts/markdown.md",
+    "src/content/posts/markdown-extended.md",
+    "src/content/posts/video.md",
+    "src/content/posts/use_giscus.md",
+    "src/content/posts/draft.md",
     "src/content/posts/building_Blogs/index.md",
+    "src/content/posts/guide/index.md",
     "src/content/posts/building_Blogs.md.md",
     "src/content/posts/building_Blogs/building_Blogs.md.md",
     "src/content/posts/building_Blogs",
@@ -195,10 +200,7 @@
     "dist/favicon/favicon-light-180.png",
     "dist/favicon/favicon-light-128.png",
     "dist/favicon/favicon-dark-32.png",
-    "src/content/posts/markdown-extended.md",
     "src/content/posts/通过 Fuwari 搭建个人博客.md",
-    "src/content/posts/draft.md",
-    "src/content/posts/markdown.md",
     "未命名 1.canvas",
     "未命名.canvas",
     "2025-10-03.md"

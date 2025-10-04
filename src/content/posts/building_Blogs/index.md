@@ -32,7 +32,7 @@ Vivia 的部署步骤确实少一两步，但 Fuwari 把后期操作全部可视
 - 下载 Windows 版本，一路 Next 安装即可
 - 安装完成后，打开命令行（Win + R → 输入 `cmd` → 回车），输入：
 
-```bash
+```diff lang="bash"
 git --version
 ```
 
@@ -46,7 +46,7 @@ git --version
 - 安装时勾选 “Add to PATH”，其他默认即可
 - 安装完后，在命令行输入：
 
-```bash
+```diff lang="bash"
 node -v
 npm -v
 ```
@@ -97,13 +97,13 @@ npm -v
 ![图炸了私信作者](https://s21.ax1x.com/2025/10/03/pVTRwi4.png)
 3. 打开命令行，输入：
 
-```bash
+```diff lang="bash"
 git clone https://github.com/你的用户名/你的仓库名.git
 ```
 
 例如：
 
-```bash
+```diff lang="bash"
 git clone https://github.com/xiaoming/my-blog.git
 ```
 
@@ -112,25 +112,25 @@ git clone https://github.com/xiaoming/my-blog.git
 
 1. 进入项目文件夹：
 
-```bash
+```diff lang="bash"
 cd my-blog
 ```
 
 2. 安装 pnpm（比 npm 更快）：
 
-```bash
+```diff lang="bash"
 npm install -g pnpm
 ```
 
 3. 安装项目依赖：
 
-```bash
+```diff lang="bash"
 pnpm install
 ```
 
 4. 安装 sharp（图片处理依赖）：
 
-```bash
+```diff lang="bash"
 pnpm add sharp
 ```
 
@@ -180,7 +180,7 @@ src/content/posts
 
 1. 在命令行输入：
 
-```bash
+```diff lang="bash"
 pnpm dev
 ```
 
@@ -204,7 +204,7 @@ pnpm dev
 
 1. 配置 Git 用户信息（只设置一次）：
 
-```bash
+```diff lang="bash"
 git config --global user.name "你的GitHub用户名"
 git config --global user.email "你的GitHub邮箱"
 ```
@@ -213,13 +213,13 @@ git config --global user.email "你的GitHub邮箱"
 
 - 打开你 GitHub 仓库页面，点击 Code → SSH，复制地址：
 
-```bash
+```diff lang="bash"
 git@github.com:你的用户名/你的仓库名.git
 ```
 
 - 设置远程地址：
 
-```bash
+```diff lang="bash"
 git remote set-url origin git@github.com:你的用户名/你的仓库名.git
 ```
 
@@ -241,7 +241,7 @@ git remote set-url origin git@github.com:你的用户名/你的仓库名.git
 
 3. 提交代码：
 
-```bash
+```diff lang="bash"
 git add .
 git commit -m "初始化博客"
 git push
