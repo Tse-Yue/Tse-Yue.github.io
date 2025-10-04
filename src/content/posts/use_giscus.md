@@ -1,5 +1,5 @@
 ---
-title: 在 Fuwari 中使用 Giscus 评论系统
+title: 【未配图】在 Fuwari 中使用 Giscus 评论系统
 published: 2025-10-04
 description: Fuwari + Giscus 评论系统
 tags:
